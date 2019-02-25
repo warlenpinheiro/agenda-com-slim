@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Agenda de Contatos</title>
+	</head>
+	<body>
+		<h1>Agenda de contatos</h1>
+		<a href="./add">Adicionar Contato</a>
+		<ul>
+			<?php 
+			if (isset($lista)) {
+				foreach ($lista as $item): ?>
+					<li><?php echo "Nome: {$item['nome']}  ---------- Telefone: {$item['telefone']} --- "; ?><a href="./edit/<?php echo $item['id']; ?>" >Editar</a> ---- <a href="./excluir/<?php echo $item['id']; ?>" >Excluir</a></li>
+				<?php endforeach; }?>
+		</ul>
+	</body>
+</html>

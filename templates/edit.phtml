@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Editar Contato</title>
+	</head>
+	<body>
+		<h1>Agenda de contatos - Editar</h1>
+		<form method="post">
+			<label>Nome</label>
+			<input type="text" name="nome" value="<?= $info['nome']; ?>">
+
+			<label>Telefone</label>
+			<input type="text" name="telefone" value="<?= $info['telefone']; ?>">
+
+			<input type="submit" value="salvar">
+		</form>
+
+	</body>
+</html>
