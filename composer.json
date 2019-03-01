@@ -9,7 +9,11 @@
             "name": "Josh Lockhart",
             "email": "info@joshlockhart.com",
             "homepage": "http://www.joshlockhart.com/"
-        }
+        },
+	{
+	    "name": "Warlen Pinheiro",
+            "email":"warlen@live.com"
+	}
     ],
     "require": {
         "php": ">=5.5.0",
